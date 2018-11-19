@@ -18,8 +18,8 @@ if (!$brand) {
 
 $carsStock = new CarsStock();
 
-//$carsStock->setBrand($brand);
-//$carsStock->setModel($model);
+$carsStock->setBrand($brand);
+$carsStock->setModel($model);
 
 $entityManager->persist($carsStock);
 $entityManager->flush();
